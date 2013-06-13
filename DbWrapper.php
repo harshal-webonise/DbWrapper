@@ -56,7 +56,6 @@ class DbWrapper {
 
         if (isset($conditions['between'])) {
             $where_string .= $conditions['between'][0] . " BETWEEN " . $conditions['between'][1] . ' AND ' . $conditions['between'][2];
-            $operator = 'between';
         }
         if (isset($conditions['OR'])) {
             $result_conditions = $conditions['OR'];

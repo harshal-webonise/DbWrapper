@@ -2,7 +2,7 @@
 
 ini_set('display_errors', 1);
 ?>
-<a href="phpinfo.php"> hello</a>
+<a href="index.php">Click here to go back to main page</a>
 <?php
 require_once("/home/weboniselab/projects/apps2013/php/testApp/DbWrapper/DbWrapper.php");
 
